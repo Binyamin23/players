@@ -1,0 +1,42 @@
+{"timestamp":"1.7.2024, 11:25:02","level":"error","message":"Error connecting to the database database \"todoList\" does not exist"}
+{"timestamp":"1.7.2024, 11:26:52","level":"error","message":"Error connecting to the database database \"todolist\" does not exist"}
+{"timestamp":"1.7.2024, 14:04:27","level":"error","message":"Error connecting to the database schema \"todoList\" does not exist"}
+{"timestamp":"1.7.2024, 14:04:44","level":"error","message":"Error connecting to the database schema \"todoךist\" does not exist"}
+{"timestamp":"1.7.2024, 14:04:47","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:11:02","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:16:44","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:16:55","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:20:11","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:22:09","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:26:30","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:26:45","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:27:04","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:29:13","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:29:25","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:29:36","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:29:45","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:29:59","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:30:08","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:34:55","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:35:03","level":"error","message":"Error connecting to the database column \"description\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:38:11","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:39:39","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:40:22","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:40:25","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:40:27","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:41:41","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:42:37","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:47:10","level":"error","message":"Error connecting to the database Column \"status\" of Entity \"Todo\" is defined as enum, but missing \"enum\" or \"enumName\" properties."}
+{"timestamp":"1.7.2024, 14:47:44","level":"error","message":"Error connecting to the database Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"1.7.2024, 14:49:05","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:50:15","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:51:33","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:53:18","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:53:29","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:55:16","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 14:55:24","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 15:08:02","level":"error","message":"Error connecting to the database column \"status\" of relation \"todo_list\" contains null values"}
+{"timestamp":"1.7.2024, 15:26:06","level":"error","message":"Error connecting to the database invalid input value for enum todolist.status_enum: \"0\""}
+{"timestamp":"2.7.2024, 10:00:33","level":"error","message":"Error connecting to the database Unknown type \"Status\".\n\nUnknown type \"Status\".\n\nUnknown type \"Status\"."}
+{"timestamp":"2.7.2024, 10:22:53","level":"error","message":"Error connecting to the database invalid input value for enum todolist.\"StatusEnum\": \"פעיל\""}
+{"timestamp":"3.7.2024, 15:34:22","level":"error","message":"Error connecting to the database Mutation.updateTodo defined in resolvers, but not in schema"}
