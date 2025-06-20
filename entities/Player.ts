@@ -6,6 +6,8 @@ export interface MonthlyStat {
   possession: number;
 }
 
+export type MonthlyStatValue = MonthlyStat[keyof MonthlyStat];
+
 export interface User {
   id: string;
   name: string;
