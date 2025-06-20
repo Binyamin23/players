@@ -26,6 +26,7 @@ import {
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { createPageUrl } from "../../utils/url";
 import { usePlayers } from "../../context/PlayerContext";
+import { getPositionColor } from "../../services/positionColor";
 
 export const Player: React.FC = () => {
   const { id: playerId } = useParams<{ id: string }>();
@@ -39,11 +40,11 @@ export const Player: React.FC = () => {
       setLoading(false);
       return;
     }
-
+    
     const foundPlayer = players.find((p) => p.id === playerId);
     setPlayer(foundPlayer || null);
     setLoading(false);
-  }, [players, searchParams]);
+  }, [players, searchParams, playerId]);
 
   const calculateGoalPercentage = (): number => {
     if (!player) return 0;
@@ -51,16 +52,6 @@ export const Player: React.FC = () => {
     return totalShots > 0
       ? Math.round((player.goals_scored / totalShots) * 100)
       : 0;
-  };
-
-  const getPositionColor = (position: string): string => {
-    const colors: Record<string, string> = {
-      שוער: "bg-green-100 text-green-800 border-green-200",
-      מגן: "bg-blue-100 text-blue-800 border-blue-200",
-      קשר: "bg-purple-100 text-purple-800 border-purple-200",
-      חלוץ: "bg-red-100 text-red-800 border-red-200",
-    };
-    return colors[position] || "bg-gray-100 text-gray-800 border-gray-200";
   };
 
   if (loading) {
@@ -228,7 +219,7 @@ export const Player: React.FC = () => {
                 <LineChart data={player.monthly_stats}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="month" />
-                  <YAxis />
+                  <YAxis tick={{ textAnchor: 'start' }} /> 
                   <Tooltip />
                   <Line
                     type="monotone"
@@ -254,7 +245,7 @@ export const Player: React.FC = () => {
                 <BarChart data={player.monthly_stats}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="month" />
-                  <YAxis />
+                  <YAxis tick={{ textAnchor: 'start' }} />
                   <Tooltip />
                   <Bar dataKey="games" fill="#10b981" radius={[4, 4, 0, 0]} />
                 </BarChart>
