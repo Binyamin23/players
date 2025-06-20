@@ -1,7 +1,8 @@
-interface MonthlyStat {
+export interface MonthlyStat {
   month: string;
   goals: number;
   games: number;
+  assists: number;
   possession: number;
 }
 
@@ -19,6 +20,7 @@ export interface Player extends User {
   goals_scored: number;
   goals_missed: number;
   games_played: number;
+  total_assists: number
   ball_possession_percentage: number;
   monthly_stats?: MonthlyStat[];
 }
