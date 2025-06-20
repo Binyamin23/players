@@ -170,17 +170,17 @@ export const Players: React.FC = () => {
         <div className="relative flex-1">
           <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-slate-400 w-4 h-4" />
           <Input
-            placeholder="...חיפוש שחקן"
+            placeholder="חיפוש שחקן..."
             value={searchTerm}
             onChange={handleChange}
             className="pr-10 text-right bg-white"
           />
         </div>
-        <Select value={positionFilter} onValueChange={setPositionFilter}>
-          <SelectTrigger className="w-full md:w-48 bg-white">
+        <Select dir="rtl" value={positionFilter} onValueChange={setPositionFilter}>
+          <SelectTrigger dir='rtl' className="w-full md:w-48 bg-white">
             <SelectValue placeholder="סינון לפי עמדה" />
           </SelectTrigger>
-          <SelectContent className="bg-white border border-slate-200 shadow-md">
+          <SelectContent dir='rtl' className="bg-white border border-slate-200 shadow-md">
             <SelectItem value="all">כל העמדות</SelectItem>
             <SelectItem value="שוער">שוער</SelectItem>
             <SelectItem value="מגן">מגן</SelectItem>

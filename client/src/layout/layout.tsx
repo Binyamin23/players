@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { createPageUrl } from "../utils/url";
 import { Users, Settings, Trophy } from "lucide-react";
 import { User } from "../../../entities/Player";
 
-export default function Layout() {
+const Layout:React.FC = () => {
   const location = useLocation();
   const [user, setUser] = React.useState<User | null>(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     // const getUser = async () => {
     //   try {
     //     const userData = await User.me();
@@ -138,3 +138,5 @@ export default function Layout() {
     </div>
   );
 }
+
+export default Layout
